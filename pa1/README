@@ -1,0 +1,19 @@
+/*********************************************************************************
+* Jason Bruni, jabruni
+* 2022 Winter CSE101 PA1
+* README
+* README for pa1
+*********************************************************************************/
+List.h:
+	Header file for List.c that contains typedefs and prototypes of exported 
+	functions.
+List.c:
+	A doubly-linked list ADT that contains struct and function definitions.
+ListClient.c:
+	A test client for List.c
+Lex.c:
+	A client module for List.c that alphabetizes list of strings.
+Makefile:
+	A makefile for pa1.
+README:
+	Describes each submitted file
