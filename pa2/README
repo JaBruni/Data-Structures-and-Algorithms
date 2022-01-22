@@ -1,0 +1,24 @@
+/*********************************************************************************
+* Jason Bruni, jabruni
+* 2022 Winter CSE101 PA2
+* README
+* README for pa2
+*********************************************************************************/
+List.h:
+	Header file for List.c that contains typedefs and prototypes of exported 
+	functions.
+List.c:
+	A doubly-linked list ADT that contains struct and function definitions.
+Graph.h:
+	Header file for Graph.h that contains typedefs and prototypes of exported functions.
+Graph.c:
+	A Graph ADT that contains struct and function definitions.
+GraphTest.c:
+	A test client that tests the functions of the Graph ADT.
+FindPath.c:
+	A client module for the Graph ADT that prints out the adjacency list and 
+	prints the distance to the destination vertex, and its shortest path.
+Makefile:
+	A makefile for pa2.
+README:
+	Describes each submitted file
