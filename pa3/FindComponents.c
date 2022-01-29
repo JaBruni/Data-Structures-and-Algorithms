@@ -74,8 +74,6 @@ int main(int argc, char* argv[]){
 	}
 	fprintf(out, "G contains %d strongly connected components:\n", count);
 	
-	printList(stdout,S);
-	
 	// Print the strong components of G to the output file in topologically sorted order
 	List sc = newList();
 	if(length(S) > 0){
