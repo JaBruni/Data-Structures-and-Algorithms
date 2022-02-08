@@ -139,6 +139,10 @@ int equals(Matrix A, Matrix B){
 // makeZero()
 // Re-sets M to the zero Matrix state.
 void makeZero(Matrix M){
+	if(M == NULL){
+		printf("Matrix Error: calling makeZero() on NULL Matrix reference\n");
+		exit(EXIT_FAILURE);
+	}
 	M->NNZ = 0;
 	for (int i = 1; i <= size(M); i++){
 		M->row[i] = newList();
@@ -150,7 +154,7 @@ void makeZero(Matrix M){
 // Pre: 1<=i<=size(M), 1<=j<=size(M)
 void changeEntry(Matrix M, int i, int j, double x){
 	if((i <= 1 && i >= M->matrixSize) || (j <= 1 && j >= M->matrixSize)){
-		printf("Matrix Exception: changeEntry() called with invalid argument\n");
+		printf("Matrix Error: changeEntry() called with invalid argument\n");
 		exit(EXIT_FAILURE);
 	}
 	if(length(M->row[i]) == 0){
@@ -205,6 +209,10 @@ void changeEntry(Matrix M, int i, int j, double x){
 // scalarMult()
 // Returns a reference to a new Matrix object representing xA.
 Matrix scalarMult(double x, Matrix A){
+	if(A == NULL){
+		printf("Matrix Error: calling scalarMult() on NULL Matrix reference\n")'
+		exit(EXIT_FAILURE):
+	}
 	Matrix M = newMatrix(A->matrixSize);
 	for(int i = 1; i <= size(A); i++){
 		if(length(A->row[i]) != 0){
