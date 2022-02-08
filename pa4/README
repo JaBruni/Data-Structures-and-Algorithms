@@ -1,0 +1,27 @@
+/*********************************************************************************
+* Jason Bruni, jabruni
+* 2022 Winter CSE101 PA4
+* README
+* README for pa4
+*********************************************************************************/
+List.h:
+	Header file for List.c that contains typedefs and prototypes of exported 
+	functions.
+List.c:
+	A doubly-linked list ADT that contains struct and function definitions.
+Matrix.h:
+	Header file for Matrix.h that contains typedefs and prototypes of exported functions.
+Matrix.c:
+	A Matrix ADT that contains struct and function definitions.
+	I used one helper function for product(), but not sum() or diff().
+MatrixTest.c:
+	A test client that tests the functions of the Matrix ADT.
+ListTest.c:
+	A test client that tests the functions of the List ADT.
+Sparse.c:
+	A client module for the Matrix ADT that prints out the the number of non-zero entries
+	in Matrix A and B, and performs certain Matrix operations.
+Makefile:
+	A makefile for pa4.
+README:
+	Describes each submitted file
