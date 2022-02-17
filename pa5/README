@@ -1,0 +1,21 @@
+/*********************************************************************************
+* Jason Bruni, jabruni
+* 2022 Winter CSE101 PA5
+* README
+* README for pa5
+*********************************************************************************/
+List.h:
+	Header file for List.cpp that contains typedefs and prototypes of exported 
+	functions.
+List.cpp:
+	A doubly-linked list ADT that contains struct and function definitions.
+ListTest.cpp:
+	A test client that tests the functions of the List ADT.
+Shuffle.cpp:
+	A client module for the List ADT that performs a perfect shuffle on a deck of cards
+	until the deck is in its original order. The amount of shuffles needed to get back 
+	to that original order is printed.
+Makefile:
+	A makefile for pa5
+README:
+	Describes each submitted file
