@@ -1,0 +1,27 @@
+/*********************************************************************************
+* Jason Bruni, jabruni
+* 2022 Winter CSE101 PA6
+* README
+* README for pa6
+*********************************************************************************/
+List.h:
+	Header file for List.cpp that contains typedefs and prototypes of exported 
+	functions.
+List.cpp:
+	A doubly-linked list ADT that contains constructors and function definitions.
+ListTest.cpp:
+	A test client that tests the functions of the List ADT.
+BigInteger.h
+	Header file for BigInteger.cpp that contains typedefs and prototypes of exported
+	functions.
+BigInteger.cpp
+	A BigInteger ADT that contains constructors and function definitions
+BigIntegerTest.cpp
+	A test client that tests the functions of the BigInteger Test ADT.
+Artihmetic.cpp:
+	A client module for the BigIntegerTest ADT that performs a set of Artihmetic 
+	operations on BigIntegers
+Makefile
+	A makefile for pa6
+README:
+	Describes each submitted file
