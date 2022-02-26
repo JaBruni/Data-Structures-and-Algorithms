@@ -87,7 +87,7 @@ BigInteger::BigInteger(std::string s){
 				sprintf(str + strlen(str), "%d", (*p) - 48);
 				p++;
 			}
-			long result = strtol(str, NULL, 10);
+			long res = strtol(str, NULL, 10);
 			digits.insertBefore(result);
 			continue;
 		}
@@ -96,7 +96,7 @@ BigInteger::BigInteger(std::string s){
 			sprintf(str + strlen(str), "%d", (*p) - 48);
 			p++;
 		}
-		long result = strtol(str, NULL, 10);
+		long res = strtol(str, NULL, 10);
 		digits.insertBefore(result);
 	}
 }
