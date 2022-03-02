@@ -210,8 +210,8 @@ void changeEntry(Matrix M, int i, int j, double x){
 // Returns a reference to a new Matrix object representing xA.
 Matrix scalarMult(double x, Matrix A){
 	if(A == NULL){
-		printf("Matrix Error: calling scalarMult() on NULL Matrix reference\n")'
-		exit(EXIT_FAILURE):
+		printf("Matrix Error: calling scalarMult() on NULL Matrix reference\n");
+		exit(EXIT_FAILURE);
 	}
 	Matrix M = newMatrix(A->matrixSize);
 	for(int i = 1; i <= size(A); i++){
