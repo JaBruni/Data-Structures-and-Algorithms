@@ -1,0 +1,20 @@
+/*********************************************************************************
+* Jason Bruni, jabruni
+* 2022 Winter CSE101 PA7
+* README
+* README for pa7
+*********************************************************************************/
+Dictionary.h:
+	Header file for Dictionary.cpp that contains typedefs and prototypes of exported 
+	functions.
+Dictionary.cpp:
+	A Dictionary ADT that contains constructors and function definitions.
+DictionaryTest.cpp:
+	A test client that tests the functions of the List ADT.
+Order.cpp
+	Client module for Dictionary ADT that prints out key:value pairs in alphabetical order
+	and the order obtained from a pre-order tree walk
+Makefile
+	A makefile for pa7
+README:
+	Describes each submitted file
